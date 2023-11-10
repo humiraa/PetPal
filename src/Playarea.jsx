@@ -1,7 +1,11 @@
 function Playarea(props) {
   return (
     <>
-      <img src="src/puppy.png" />
+      {props.petHappiness > 50 ? (
+        <img src="src/Name-pet.png" />
+      ) : (
+        <img src="src/puppy.png" />
+      )}
       <h3>{props.petName} </h3>
       <p>Happiness</p>
       <progress id="health" value={props.petHappiness} max="100"></progress>
