@@ -1,6 +1,6 @@
 function Playarea(props) {
   return (
-    <>
+    <div class="play-area">
       {props.petHappiness > 50 ? (
         <img src="src/Name-pet.png" />
       ) : (
@@ -20,9 +20,7 @@ function Playarea(props) {
       <button className="bath" onClick={props.onBath}>
         Bath 🧼
       </button>
-    </>
+    </div>
   );
 }
 export default Playarea;
-
-

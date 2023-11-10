@@ -6,7 +6,7 @@ export default function Namepet(props) {
     props.onNamePet(newName);
   }
   return (
-    <>
+    <div className="adoptPage">
       <img src="src/puppy.png" />
       <h2>Give your pet a name</h2>
       <input
@@ -16,6 +16,7 @@ export default function Namepet(props) {
         placeholder="Enter a name for your pet"
       ></input>
       <button
+        className="adoptBtn"
         type="submit"
         onClick={() => {
           props.onNamePet(newName);
@@ -24,6 +25,6 @@ export default function Namepet(props) {
       >
         Go
       </button>
-    </>
+    </div>
   );
 }

@@ -2,58 +2,63 @@ img {
   width: 20rem;
 }
 
-
-Header{
-  background-color: #61dafbaa ;
+Header {
+  background-color: #61dafbaa;
   width: 100rem;
   height: 7rem;
- display: flex;
-text-align: center;
-justify-content: center;
-
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
-footer{
-  background-color: #61dafbaa ;
-position: absolute; 
-bottom: 0;
-width: 100%;
-text-align: center;
-justify-content: center;
+footer {
+  background-color: #61dafbaa;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
 }
 
-body{
+body {
   margin: 0 auto;
-  padding:0;
-  display:flex;
-
+  padding: 0;
+  display: flex;
 }
-.adoptPage{
+.adoptPage {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-content: center;
-  margin: 0 35rem; 
-  
+  margin: 0 35rem;
 }
 
-.adoptBtn{
+.adoptBtn {
   background-color: #61dafbaa;
   width: 7rem;
   margin-top: 3rem;
   margin-left: 6rem;
   animation: bounce 3s infinite;
 }
-.maintitle{
+.maintitle {
   margin-top: 3rem;
-    
 }
 
-.title1{
+.title1 {
   margin-top: 3rem;
   margin-left: 2rem;
 }
+.play-area {
+  margin-left: 35em;
+}
+.play-area button {
+  margin-left: 5em;
+}
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
