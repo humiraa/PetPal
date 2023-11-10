@@ -1,8 +1,8 @@
-function Playarea() {
+function Playarea(props) {
   return (
     <>
-      <img></img>
-      <h3>Buddy </h3>
+      <img src="src/puppy.png" />
+      <h3>{props.petName} </h3>
       <p>Happiness</p>
       <progress id="health" value="50" max="100"></progress>
       <p>Hunger</p>

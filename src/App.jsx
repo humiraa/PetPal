@@ -45,7 +45,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <PetImage />
       {currentPage === 'adopt-page' && <AdoptComponent onAdopt={handleAdopt} />}
       {currentPage === 'nameApet' && <Namepet onNamePet={handleNamePet} />}
       {currentPage === 'play-area' && (
@@ -58,9 +57,6 @@ function App() {
           onBath={handleBath}
         />
       )}
-      <Namepet />
-
-      <Playarea />
       <Footer />
     </div>
   );
