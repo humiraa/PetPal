@@ -12,15 +12,17 @@ function Playarea(props) {
       <p>Hunger</p>
       <progress id="hunger" value={props.petFullness} max="100"></progress>
       <button className="play" onClick={props.onPlay}>
-        play
+        Play ⚽
       </button>
       <button className="feed" onClick={props.onFeed}>
-        Feed
+        Feed 🥫
       </button>
       <button className="bath" onClick={props.onBath}>
-        Bath
+        Bath 🧼
       </button>
     </>
   );
 }
 export default Playarea;
+
+
