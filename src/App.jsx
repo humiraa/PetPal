@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import PetImage from "./Pet";
 import AdoptButton from "./Adopt";
 import Namepet from "./NamePet";
+import Playarea from "./Playarea";
 
 function App() {
   return(
