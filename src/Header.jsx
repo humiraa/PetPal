@@ -1,3 +1,7 @@
 export default function Header(){
-    return <h1> PetPal: Your Digital Best Friend</h1>
+    return (<header> 
+ <h1 className="maintitle"> PetPal: Your Digital Best Friend</h1>
+    </header>) 
+    
+   
 }

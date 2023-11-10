@@ -47,8 +47,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      {currentPage === "adopt-page" && <AdoptComponent onAdopt={handleAdopt} />}
+      <Header  classname="Header"/>
+      {currentPage === "adopt-page" && <AdoptComponent onAdopt={handleAdopt}  className="adopt"/>}
       {currentPage === "nameApet" && <Namepet onNamePet={handleNamePet} />}
       {currentPage === "play-area" && (
         <Playarea
