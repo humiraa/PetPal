@@ -1,10 +1,10 @@
 function Playarea(props) {
   return (
-    <div class="play-area">
+    <div className="play-area">
       {props.petHappiness > 50 ? (
-        <img src="src/Name-pet.png" />
+        <img src="/Name-pet.svg" />
       ) : (
-        <img src="src/puppy.png" />
+        <img src="/puppy.png" />
       )}
       <h3>{props.petName} </h3>
       <p>Happiness</p>

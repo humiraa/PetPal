@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
-import PetImage from './Pet';
 import AdoptComponent from './Adopt';
 import Namepet from './NamePet';
 import Playarea from './Playarea';

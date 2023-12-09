@@ -7,7 +7,7 @@ export default function Namepet(props) {
   }
   return (
     <div className="adoptPage">
-      <img src="src/puppy.png" />
+      <img src="/puppy.svg" />
       <h2>Give your pet a name</h2>
       <input
         type="text"
