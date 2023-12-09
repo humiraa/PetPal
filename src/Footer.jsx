@@ -1,5 +1,5 @@
 export default function Footer(){
     return (
-        <footer>Week 10 Hackathon</footer>
+        <footer>Vitrual Pet Friend</footer>
     )
 }
